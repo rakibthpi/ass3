@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+li,
+a,
+span {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #fff;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #3E3E3E;
+}
+
+/* ======== btn link area start ======== */
+.btn-link {
+    color: #fff;
+    transition: .4s ease-in-out;
+    text-decoration: none;
+}
+
+.btn-package {
+    width: 100%;
+    border-radius: 50px;
+    background-color: #F496D1;
+    border: 1px solid #F496D1;
+}
+
+.btn-link:hover {
+    color: #fff;
+    background-color: #6f8fc0;
+}
+
+/* ======== slider main area start ======== */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 55px;
+    color: red;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: red;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #fff;
+}
+
+.carousel-item p {
+    color: #fff;
+}
+
+/* ===================  Defolt css area end  =================  */
+
+/*  ===================  Header main area start  ================= */
+.header_main_area {
+    padding: 15px 0;
+}
+
+/*  ===================  Header main area End  ================= */
+/*  ===================  Package main area Start  ================= */
+.out_main_package {
+    padding: 70px 0;
+}
+
+.out_main_text_package h2 {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+/* single item start  */
+
+.out_package_single_card_area {
+    padding: 30px 20px;
+    position: relative;
+}
+
+.out_package_single_card_area:hover .out_package_single_card_area_new {
+    display: block;
+}
+
+.out_package_single_card_area_new {
+    position: absolute;
+    top: -11px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    display: none;
+}
+
+.out_package_single_card_area_new>span {
+    color: #fff;
+    background-color: red;
+    display: inline-block;
+    padding: 2px 12px;
+    border-radius: 40px;
+}
+
+.out_package_single_card_area:hover {
+    background-color: #3F87F5;
+    border-radius: 18px;
+    color: #fff;
+}
+
+.out_package_single_card_area:hover ul li span {
+    color: #fff;
+}
+
+.out_package_single_card_area:hover h3 {
+    color: #ffff;
+}
+
+.out_package_single_card_area h3 {
+    color: #231D4F;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.out_package_single_card_area h3 span {
+    font-size: 30px;
+}
+
+.out_package_single_card_area ul li {
+    line-height: 2.2;
+}
+
+.out_package_single_card_area ul li span {
+    background: rgba(82, 67, 194, 0.103693);
+    color: #5243C2;
+    font-size: 14px;
+    height: 27px;
+    width: 27px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2;
+}
+
+
+
+
+/*  ===================  Package main area End  ================= */
+
+/*  ===================  Package main area End  ================= */
+.asked_main_area {
+    padding: 30px 0 70px 0;
+}
+
+.asked_main_text_area>h2 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.accordion-item.mt-3 {
+    border: 2px solid #cbcbcb;
+}
+
+/*  ===================  Package main area End  ================= */
+
+/*  ===================  Package main area End  ================= */
+.extra_main_area {
+    padding: 70px 0 10px 0;
+}
+
+.extra_main_text_area h2 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.extra_single_item_area_right img {
+    width: 100%;
+    height: auto;
+}
+
+/*  ===================  Package main area End  ================= */
+
+/*  ===================  Footer main area End  ================= */
+.footer_main_area {
+    padding: 50px 0;
+    background-color: #000;
+}
+
+.footer_single_item_right a {
+    display: block;
+}
+
+.footer_single_item_right h5 {
+    color: #fff;
+    font-size: 24px;
+    padding-bottom: 24px;
+}
+
+.footer_single_item_right_width {
+    width: 200px;
+}
+
+.footer_single_item_right_width a img {
+    width: 160px;
+    height: auto;
+
+}
+
+.footer_single_item_left p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/*  ===================  footer main area End  ================= */
+
+.toast.show.align-items-center {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.toast-body {
+    border-left: 6px solid #007CFF;
+}
+
+.toast-body img {
+    width: 24px;
+    margin-right: 10px;
+}

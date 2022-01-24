@@ -1,0 +1,23 @@
+@media all and (max-width: 767px) {
+
+    .extra_main_text_area .row {
+        flex-direction: column-reverse;
+    }
+
+    .asked_main_accordin_area .row {
+        flex-direction: column-reverse;
+    }
+
+}
+
+@media all and (max-width: 575px) {
+
+    .footer_single_item_left p {
+        text-align: center;
+    }
+
+    .footer_single_item_right.d-flex.justify-content-end {
+        justify-content: center !important;
+    }
+
+}
